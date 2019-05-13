@@ -1,5 +1,9 @@
 # RESNET with Attention
-Implementation of SE, BAM and CBAM attention Module
+Implementation of SE [1], BAM [2] and CBAM [3] Attention Modules
+
+[1] Hu et al., Squeeze-and-Excitation Network (CVPR 2018 Oral), ILSVRC2017 winner
+[2] Park et al., BAM: Bottleneck Attention Module, (BMVC 2018 Oral)
+[3] Woo et al., CBAM: Convolutional Block Attention Module, ECCV 2018.
 
 | Model         	| Variation         	| Top1 Error 	| Top5 Error 	| Params  	| GFlops 	|
 |---------------	|-------------------	|------------	|------------	|---------	|--------	|
