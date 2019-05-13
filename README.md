@@ -22,4 +22,4 @@ Implementation of SE [1], BAM [2] and CBAM [3] Attention Modules
 |               	| Joint-Attention   	| 20.03      	| 4.69       	| 24.063M 	| 1.156  	|
 | Resnet34-CBAM 	| Channel-Attention 	| 20.03      	| 4.67       	| 26.236M 	| 1.146  	|
 |               	| Spatial-Attention 	| 20.79      	| 4.96       	| 23.707M 	| 1.143  	|
-|               	| Joint-Attention   	| 19.82      	| 4.76       	| 26.237  	| 1.158  	|
+|               	| Joint-Attention   	| 19.82      	| 4.76       	| 26.237M  	| 1.158  	|
