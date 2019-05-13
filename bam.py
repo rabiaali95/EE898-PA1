@@ -81,6 +81,6 @@ class BAM(nn.Module):
     def forward(self, x):
         #Spatial and Channel attention branches are computed seperately and then either added or multiplied
         #This eq refers to eq 1 of paper where F i.e input feature map (x in my case) is taken as common and multiplied in next line
-        full_attention = 1 + F.sigmoid(self.channel_attention(x) + self.spatial_attention(x))
+        full_attention = 1 + F.sigmoid(self.channel_attention(x) * self.spatial_attention(x))
 
         return x * full_attention
